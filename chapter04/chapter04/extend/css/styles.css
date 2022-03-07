@@ -60,7 +60,40 @@ main a {
 /* Orange */
 
 
-/* Purple */
+.orange-hex{
+background-color: #ff8800;
+}
 
+.orange-rgb{
+background-color: rgb(255, 136, 0);
+}
+
+.orange-hsl{
+background-color: hsl(32,100%,50%);
+}
+
+/* Purple */
+.purple-hex{
+background-color: #800080;
+}
+
+.purple-rgb{
+background-color: rgb(128, 0, 128);
+}
+
+.purple-hsl{
+background-color: hsl(300, 100%, 25%);
+}
 
 /* Green */
+.green-hex{
+background-color: #008000;
+}
+
+.green-rgb{
+background-color: rgb(0, 128, 0);
+}
+
+.green-hsl{
+background-color: hsl(120, 100%, 25%);
+}
