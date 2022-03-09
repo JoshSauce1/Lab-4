@@ -30,7 +30,7 @@ img{
     for header content */
 h1{
   font-size: 3em;
-  font-family: "Georgia" Times, Serif;
+  font-family: "Georgia", Times, Serif;
   text-align: center;
   padding: 3%;
   color: #101a2d;
@@ -46,23 +46,28 @@ nav ul{
   list-style-type: none;
   text-align: center;
   margin:0;
+  overflow: hidden;
 }
 
 nav li{
   display: inline;
   font-size: 1.5em;
-  font-family: "Verdana", Arial, sans-serif,
+  font-family: "Verdana", Arial, sans-serif;
   font-weight: bold;
+list-style-type: none;
+float: left;
 }
 
 nav li a{
   display: block;
-  color: #e3eaf8
+  color: #e3eaf8;
   padding-top: .5em;
   padding-bottom:.5em;
   padding-left: 2em;
-  padding-right 2em;
+  padding-right: 2em;
   text-decoration: none;
+  text-align: center;
+
 }
 
 /* Style rule
@@ -70,7 +75,7 @@ for main content */
 
 main{
   padding:2%;
-  font-family: "Geneva", Arial, sans-serif,
+  font-family: "Geneva", Arial, sans-serif;
   overflow: auto;
 }
 
