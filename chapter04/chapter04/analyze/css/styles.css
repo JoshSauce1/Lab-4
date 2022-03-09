@@ -7,6 +7,7 @@ Date:3/7/22
 /* CSS reset */
 
 
+
 #css1, #css2, #css3 {
     width: 30%;
     float: left;
@@ -63,9 +64,13 @@ nav {
 
 list-style-type: none;
  margin: 0;
+ padding: 0;
+  overflow: hidden;
  /* text-align: center; */
 
 }
+
+
 
  nav li {
     display: block;
@@ -76,16 +81,21 @@ list-style-type: none;
     font-size: 1.5em;
     font-family: Verdana, Arial, sans-serif;
      font-weight: bold;
+     float: left;
+}
 
-} nav li a {
+nav li a {
   display: block;
   color: #e3eaf8;
    padding: 0.5em 2em;
+   text-decoration: none;
  }
 
 /* Style rule
 for footer content */
-}footer {
+
+
+footer {
 text-align: center;
 font-size: 0.85em;
 color: #47476b;
